@@ -1,3 +1,9 @@
+# Live Build
+
+This is an ongoing project. 
+You can find the live build of this project at: https://porousway-c889b.web.app/.
+I have removed some API keys and endpoints and commented them out with "Public note: ..." You will need to replace them before you can run the app in dev mode. I'd be happy to share the code for building the APIs upon request.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

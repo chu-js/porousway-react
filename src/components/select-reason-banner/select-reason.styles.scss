@@ -1,0 +1,32 @@
+.select-reason-banner-container {
+  position: relative;
+  height: 85vh;
+  align-items: center;
+  color: #ffffff;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://www.porousway.com/wp-content/uploads/2021/10/Balcony-of-Relaxing-Condo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  @media only screen and (max-width: 734px) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0)
+      ),
+      url("https://www.porousway.com/wp-content/uploads/2021/10/Balcony-of-Relaxing-Condo.jpeg");
+  }
+
+  .select-reason-banner-body-container {
+    position: relative;
+    top: 30%;
+    text-align: center;
+  }
+}

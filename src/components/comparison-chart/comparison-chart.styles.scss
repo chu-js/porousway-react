@@ -1,0 +1,48 @@
+.comparison-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+
+  .product-comparison-container {
+    padding: 10px 0%;
+    width: 33%;
+    text-align: center;
+
+    @media (max-width: 480px) {
+      width: 50%;
+    }
+
+    .product-comparison-image {
+      width: 66%;
+    }
+
+    .feature-logo {
+      position: relative;
+      margin: 20px 0px 0px;
+      font-size: 100px;
+    }
+
+    .swatches {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swatch {
+        width: 10%;
+        height: 10%;
+        margin: 12px 4px 5px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .active {
+        border: 3px solid black;
+      }
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
